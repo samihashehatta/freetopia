@@ -1,0 +1,331 @@
+
+/* top h2 style*/
+.top
+{
+    margin-bottom: 150px;
+    margin-top: 180px;
+}
+
+
+
+
+.top h2{
+	font-family: aspira;
+	font-size: 58px;
+    text-transform: capitalize;
+	font-weight:200;
+}
+.top h2 span 
+{
+font-family:arvo;
+    font-size: 70px;
+
+}
+
+.top h2:before
+{
+	content:"";
+	background-color:#e77e01;
+	position:absolute;
+	top:160px;
+	left:5%;
+	width:90px;
+	height:4px;
+}
+
+.loat h2 
+{
+	color:#3E3E3E;
+    font-family: aspira;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+.loat .colum 
+{
+	background-color:#e77d01;
+    position: relative;
+    top: 10px;
+	height:45px;
+	width:2px;
+	float:left;
+    margin-right: 10px
+        
+}
+.freela .client .hour
+{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.freela .client section
+{
+	margin:auto;
+	text-align:center;
+	padding:20px;
+	
+}
+.freela .client section span h4
+{
+    text-transform: capitalize;
+    color: #e77d01;
+    font-size: 28px;
+    font-weight: 
+}
+.freela .client section span p
+{
+    text-transform: capitalize;
+    color: #3e3e3e;
+    font-size: 20px;
+   
+}
+.freela .client  img
+{
+	display:inline-block;
+	margin-bottom:10px;
+	margin-top: 20px;
+    border-radius: 5px;
+}
+.freela .client section span
+{
+display:inline-block;	
+}
+.freela .client section span h4 ,.client section span p
+{
+	margin-bottom:0px;
+}
+.freela .client 
+{
+	
+	width:280px;
+	height:420px;
+    overflow:hidden;
+	
+	color:#3e3e3e;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 30px;
+}
+.freela .client .stars
+{
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.freela .client .stars .dcolor
+{
+    color: #e77d01;
+}
+
+.freela .thumbnail
+{
+    padding: 10px;
+	border-radius:0px;
+    border: 0px;
+}
+.freela 
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+.freela .head-ft-btn-l{
+	background-color: #e77d01;
+    font-weight: 600;
+	color:#FFF;
+    margin-top: 20px;
+    border-radius: 0px;
+    width: 150px;
+	border: 2px solid #e77d01;
+	transition: all 0.4s ease;
+}
+
+.freela .head-ft-btn-l:hover {
+	color: #e77d01;
+	background-color: #FFF;
+    border: 2px solid #e77d01;
+}
+
+
+.freela .cat-ft-btn{
+	background-color: #e77d01;
+    font-weight: 600;
+	color:#FFF;
+    margin-top: 20px;
+    border-radius: 0px;
+    width: 150px;
+    margin-left: 6%;
+    margin-bottom: 50px;
+	border: 2px solid #e77d01;
+    padding: 10px;
+	transition: all 0.4s ease;
+}
+
+.freela .cat-ft-btn:hover {
+color: #e77d01;
+	background-color: #FFF;
+    border: 2px solid #e77d01;
+}
+
+/* start of footer */
+
+footer
+{
+	background:#3e3e3e;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+footer .logo 
+{
+	height:80px;
+	margin-top:10px;
+}
+footer .first p
+{
+	margin-left:10px;
+	margin-top:15px;
+	color:#fcfcfc;
+	font-family:aspira;
+	
+	
+}
+footer .sec 
+{
+	margin-top:10px;
+	
+}
+footer .sec ul 
+{
+	list-style:none;
+}
+footer .sec h3
+{
+	margin-left:40px;
+	color:#fcfcfc;
+	font-family:aspira;
+}
+footer .sec ul li 
+{
+	padding: 5px;
+	padding-left:0px;
+}
+footer .sec ul li a
+{
+	font-size:18px;
+	color:#c3c2c2;
+	
+	font-family:Aspira Light;
+}
+footer .sec ul li a:hover
+{
+	color:#fcfcfc;
+}
+footer .sec ul li a:hover 
+{
+	text-decoration:none;
+	color:#fcfcfc;
+}
+footer .th
+{
+	margin-top:10px;
+	font-family:aspira light;
+	
+}
+footer .th h3
+{
+	color:#fcfcfc;
+}
+footer .th i
+{
+	padding:15px;
+	padding-right:20px;
+	font-size:18px;
+	color:#2c2c2c;
+}
+footer .th .fa-facebook
+{
+	padding-left:0px;
+	
+}
+footer .th .fa-facebook,footer .th .fa-twitter,footer .th .fa-linkedin-square
+{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+footer .th .fa-facebook:hover
+{
+	color:#3b5998; 
+}
+footer .th .fa-twitter:hover
+{
+	color:#00aced;
+}
+footer .th .fa-linkedin-square:hover
+{
+	color:#007bb6;
+}
+.footer-down
+{
+	
+	text-align:center;
+	margin:auto;
+	border-top:1px solid #c3c2c2;
+	margin-top:20px;
+}
+.footer-down p
+{
+	color:#c3c2c2;
+	margin:15px;
+}
+
+/* end of footer */
+
+/* NavBar Custom */ 
+
+.navbar{
+	min-height:90px;
+}
+.navbar-left{
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: aspira;
+}
+.navbar-right{
+	margin-top: 15px;	
+}
+.navbar-default{
+	background-color: #FFF;
+	border-color: #FFF;
+}
+.nav>li{
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+	color: #3e3e3e;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	
+	color:#e77e01;
+}
+
+/* End NavBar Custom */

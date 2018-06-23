@@ -1,0 +1,291 @@
+.signup {
+  width: 100%;
+  background: #fff;
+  padding-top: 150px; 
+  padding-bottom: 150px; 
+    
+} 
+
+.signup .item .fa-stack {
+  color: #fff;
+}
+
+.signup .item .text-mint {
+  color: #3e3e3e;
+    font-size: 120px;
+    margin-bottom: 20px;
+}
+
+.signup .item h4 {
+  font-family: aspira;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1px;
+    color: #e77d01;
+    margin-top: 50px;
+}
+
+.signup .item p {
+  font-family: aspira;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+    color: #e77d01;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.signup .kafe-btn-mint{
+  font-family: aspira;
+  font-weight: 700;
+  font-size: 14px;
+ 
+  color: #FFF;
+  
+  letter-spacing: 1px; 
+}
+ .head-ft-btn-l {
+	margin: 40px 20%;
+	padding: 10px 20px;
+	border-radius: 0px;
+	width: 150px;
+    text-align: center;
+}
+
+
+.head-ft-btn-l{
+	background-color: #3e3e3e;
+	color:#FFF;
+	border: 2px solid #3e3e3e;
+	transition: all 0.4s ease;
+}
+.btn-default:active
+{
+    color: #3e3e3e;
+	background-color: #FFF;
+}
+.head-ft-btn-l:hover {
+	color: #3e3e3e;
+	background-color: #FFF;
+    
+}
+.head-ft-btn-l:hover > a
+{
+    color: #3e3e3e;
+}
+.head-ft-btn-l> a
+{
+    text-decoration: none;
+}
+.signup .divider{
+  font-family: aspira;
+  color: #3e3e3e;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 115px;
+}
+
+.signup span.or::before{
+  top: -50px;
+}
+
+.signup span.or::before,
+.signup span.or::after{
+  position: absolute;
+content: "";
+display: block;f
+  padding: 55px 0;
+  border-left: 1px solid #3e3e3e;
+  border-right: 1px solid #3e3e3e;
+  left: 95px;
+}
+
+.signup span.or::after{
+  top: 185px;
+  padding-top: 70px;
+}
+
+
+@media only screen and (max-width: 1199px){
+    .signup span.or{
+	 position:relative;
+     top: -50px !important;
+    }
+	.signup span.or::before,
+	.signup span.or::after{
+	  display: none;
+	}	
+}
+
+@media only screen and (max-width: 767px){
+	.signup {
+	  padding-top: 100px; 
+	  padding-bottom: 100px; 
+	} 
+}
+
+
+
+
+
+
+
+
+
+
+/* start of footer */
+
+footer
+{
+	background:#3e3e3e;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+footer .logo 
+{
+	height:80px;
+	margin-top:10px;
+}
+footer .first p
+{
+	margin-left:10px;
+	margin-top:15px;
+	color:#fcfcfc;
+	font-family:aspira;
+	
+	
+}
+footer .sec 
+{
+	margin-top:10px;
+	
+}
+footer .sec ul 
+{
+	list-style:none;
+}
+footer .sec h3
+{
+	margin-left:40px;
+	color:#fcfcfc;
+	font-family:aspira;
+}
+footer .sec ul li 
+{
+	padding: 5px;
+	padding-left:0px;
+}
+footer .sec ul li a
+{
+	font-size:18px;
+	color:#c3c2c2;
+	
+	font-family:Aspira Light;
+}
+footer .sec ul li a:hover
+{
+	color:#fcfcfc;
+}
+footer .sec ul li a:hover 
+{
+	text-decoration:none;
+	color:#fcfcfc;
+}
+footer .th
+{
+	margin-top:10px;
+	font-family:aspira light;
+	
+}
+footer .th h3
+{
+	color:#fcfcfc;
+}
+footer .th i
+{
+	padding:15px;
+	padding-right:20px;
+	font-size:18px;
+	color:#2c2c2c;
+}
+footer .th .fa-facebook
+{
+	padding-left:0px;
+	
+}
+footer .th .fa-facebook,footer .th .fa-twitter,footer .th .fa-linkedin-square
+{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+footer .th .fa-facebook:hover
+{
+	color:#3b5998; 
+}
+footer .th .fa-twitter:hover
+{
+	color:#00aced;
+}
+footer .th .fa-linkedin-square:hover
+{
+	color:#007bb6;
+}
+.footer-down
+{
+	
+	text-align:center;
+	margin:auto;
+	border-top:1px solid #c3c2c2;
+	margin-top:20px;
+}
+.footer-down p
+{
+	color:#c3c2c2;
+	margin:15px;
+}
+
+/* end of footer */
+
+/* NavBar Custom */ 
+
+.navbar{
+	min-height:90px;
+}
+.navbar-left{
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: aspira;
+}
+.navbar-right{
+	margin-top: 15px;	
+}
+.navbar-default{
+	background-color: #FFF;
+	border-color: #FFF;
+}
+.nav>li{
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+	color: #3e3e3e;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	
+	color:#e77e01;
+}
+
+/* End NavBar Custom */
+

@@ -1,0 +1,524 @@
+/* start of footer */
+
+footer
+{
+	background:#3e3e3e;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+footer .logo 
+{
+	height:80px;
+	margin-top:10px;
+}
+footer .first p
+{
+	margin-left:10px;
+	margin-top:15px;
+	color:#fcfcfc;
+	font-family:aspira;
+	
+	
+}
+footer .sec 
+{
+	margin-top:10px;
+	
+}
+footer .sec ul 
+{
+	list-style:none;
+}
+footer .sec h3
+{
+	margin-left:40px;
+	color:#fcfcfc;
+	font-family:aspira;
+}
+footer .sec ul li 
+{
+	padding: 5px;
+	padding-left:0px;
+}
+footer .sec ul li a
+{
+	font-size:18px;
+	color:#c3c2c2;
+	
+	font-family:Aspira Light;
+}
+footer .sec ul li a:hover
+{
+	color:#fcfcfc;
+}
+footer .sec ul li a:hover 
+{
+	text-decoration:none;
+	color:#fcfcfc;
+}
+footer .th
+{
+	margin-top:10px;
+	font-family:aspira light;
+	
+}
+footer .th h3
+{
+	color:#fcfcfc;
+}
+footer .th i
+{
+	padding:15px;
+	padding-right:20px;
+	font-size:18px;
+	color:#2c2c2c;
+}
+footer .th .fa-facebook
+{
+	padding-left:0px;
+	
+}
+footer .th .fa-facebook,footer .th .fa-twitter,footer .th .fa-linkedin-square
+{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+footer .th .fa-facebook:hover
+{
+	color:#3b5998; 
+}
+footer .th .fa-twitter:hover
+{
+	color:#00aced;
+}
+footer .th .fa-linkedin-square:hover
+{
+	color:#007bb6;
+}
+.footer-down
+{
+	
+	text-align:center;
+	margin:auto;
+	border-top:1px solid #c3c2c2;
+	margin-top:20px;
+}
+.footer-down p
+{
+	color:#c3c2c2;
+	margin:15px;
+}
+
+/* end of footer */
+
+/* NavBar Custom */ 
+
+.navbar{
+	min-height:90px;
+}
+.navbar-left{
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: aspira;
+}
+.navbar-right{
+	margin-top: 15px;	
+}
+.navbar-default{
+	background-color: #FFF;
+	border-color: #FFF;
+}
+.nav>li{
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+	color: #3e3e3e;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	
+	color:#e77e01;
+}
+
+/* End NavBar Custom */
+
+/* start of title*/
+
+.top
+{
+    margin-bottom: 150px;
+    margin-top: 280px;
+}
+
+
+
+
+.top h2{
+	font-family: aspira;
+	font-size: 58px;
+    text-transform: capitalize;
+	font-weight:200;
+}
+.top h2 span 
+{
+font-family:arvo;
+    font-size: 70px;
+
+}
+
+.top h2:before
+{
+	content:"";
+	background-color:#e77e01;
+	position:absolute;
+	top:160px;
+	left:5%;
+	width:90px;
+	height:4px;
+}
+
+
+/*end of title*/
+
+
+
+/* start of body */
+
+
+.jobpost .jobform 
+{
+    background-color: #fcfcfc;
+    margin-bottom: 20px;
+    
+}
+
+.jobpost .jobform  .loat h2
+{
+	color:#3e3e3e;
+    font-family: aspira;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+.jobpost .jobform  .loat .colum 
+{
+	background-color:#e77d01;
+    position: relative;
+    top: 0px;
+	height:40px;
+	width:2px;
+	float:left;
+    margin-right: 10px
+  
+}
+
+
+
+
+.jobpost .jobform .login-block > input  {
+    width: 80%;
+    height: 42px;
+    box-sizing: border-box;
+    border: 1px solid #dedede;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding: 0 10px 0 10px;
+    outline: none;
+    
+}
+
+.jobpost .jobform .login-block input#fname {
+   
+    background-size: 16px 80px;
+   width: 50%;
+  margin: 20px;
+    margin-left: 15px;
+  /* needs media quary*/
+}
+
+.jobpost .jobform .login-block input#fname:focus {
+   border: 1px solid #e77d01;
+ 
+}
+
+.jobpost .jobform  .pm .pm1 button
+{
+    backface-visibility: hidden;
+    width: 100%;
+    border: none;
+    background-color: inherit;
+}
+
+.jobpost .jobform .pm
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.jobpost .jobform .pm .pm1
+{
+    margin: 15px;
+    text-align: center;
+    border: 2px solid #3e3e3e;
+    width: 150px;
+    text-transform: uppercase;
+  
+}
+.jobpost .jobform  .pm .pm1 button:focus
+{
+    border:2px solid #e77d01;
+}
+.jobpost .jobform .pm .pm1 .fa-clock-o
+{
+    font-size: 38px;
+}
+.jobpost .jobform .pm .pm1 h6
+{
+    font-size: 16px;
+   
+}
+.jobpost .jobform .pm .pm1 h6>.ss
+{
+    position: relative;
+    left: 40px;
+    border-top: 2px solid #3e3e3e;
+    width: 30%;
+    margin-bottom: 10px;
+}
+    .jobpost .jobform .pm .pm1 h6>.ss2
+{
+    position: relative;
+    left: 35px;
+    border-top: 2px solid #3e3e3e;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.DATE 
+{
+    width: 150px!important;
+    padding-left: 10px !important;
+}
+.to
+{
+    margin: 0px ;
+    font-size: 16px;
+    font-family: arvo;
+    color: #3e3e3e;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+.jobpost .others
+{
+    
+    background-color:#3e3e3e;
+    padding: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 300px
+   
+}
+.jobpost .others  .loat a
+{
+    text-decoration: none
+}
+.jobpost .others  .loat a h2:hover
+{
+    color: #fff;
+   
+}
+.jobpost .others  .loat h2
+{
+	color:#e77d01;
+    font-family: aspira;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+.jobpost .others .loat .colum 
+{
+	background-color:#e77d01;
+    position: relative;
+    top: 0px;
+	height:40px;
+	width:2px;
+	float:left;
+    margin-right: 10px
+  
+}
+
+
+
+.inns
+{
+    width:100px !important;
+    padding-left: 10px !important;
+}
+.jobpost .jobform .login-block > textarea  {
+    width: 80%;
+    
+    box-sizing: border-box;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 20px;
+    font-size: 16px;
+   font-family: arvo;
+    
+    outline: none;
+    
+}
+
+.jobpost .jobform .login-block textarea#fname {
+   
+    background-size: 16px 80px;
+   width: 50%;
+  margin: 20px;
+    margin-left: 15px;
+    max-height: 150px;
+    border: 1px solid #3e3e3e;
+   
+  /* needs media quary*/
+}
+
+.jobpost .jobform .login-block textarea#fname:focus {
+   border: 1px solid #e77d01;
+ 
+}
+button {
+	margin-top: 10px;
+    text-align: center;
+	border-radius: 0px !important;
+	width: 180px;
+    
+}
+ .head-ft-btn-r{
+	margin-left: 10px;
+	color: #fff;
+    padding: 10px 10px ;
+     padding-top: 15px;
+     font-family: aspira;
+     font-weight: 700;
+	border: 2px solid #e77d01;
+	transition: all 0.4s ease;
+     background-color: #e77d01;
+     
+
+}
+.head-ft-btn-r:hover {
+  	color: #e77d01;
+  	background-color: #fff;
+    border: 2px solid #e77d01;
+}
+
+/* end  of body */
+
+
+
+
+
+
+/*start of dropmenu*/
+.drop-menu {
+  width: 200px;
+  background-color:#fff; 
+  transition: all .5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #3e3e3e;
+  text-align: left;
+  border: 1px solid #dedede;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+    
+
+}
+.drop-menu:active {
+  border: 1px solid #e77e01;
+}
+.drop-menu:foucs {
+	  border: 1px solid #e77e01;
+
+}
+.drop-menu .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+
+}
+
+
+.drop-menu .select .fa-chevron-down {
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .5s ease;
+    float: right;
+        color: #e77e01;
+}
+
+.drop-menu:active {
+    background-color: #FFF;
+}
+.drop-menu.active:hover,
+.drop-menu.active {
+    background-color: #FFF;
+}
+.drop-menu.active .select .fa-chevron-down {
+    transform: rotate(180deg);
+}
+.drop-menu .dropeddown {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    overflow: hidden;
+    display: none;
+  max-height: 144px;
+    overflow-y: auto;
+    z-index: 99999;
+     padding: 0;
+    list-style: none;
+}
+.drop-menu .dropeddown li {
+    padding: 10px;
+    transition: all .2s ease;
+    cursor: pointer;
+text-transform: capitalize;
+} 
+
+.drop-menu .dropeddown li:hover {
+    background-color: #e77e01;
+    color: #fff
+}
+.drop-menu .dropeddown li:active {
+    background-color: #d07421;
+    color: #fff;
+}
+.select span{
+	
+	color: #999999 ;
+    text-transform: capitalize;
+}
+
+    
+
+/*end of dropmenu*/
+

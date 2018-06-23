@@ -1,0 +1,320 @@
+/* search*/
+
+
+
+
+.login-block {
+    width:50%;
+    padding: 20px;
+    background: #fff;
+  
+   
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+   
+    border:1px solid #3e3e3e;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+
+
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #e77d01;
+}
+
+.login-block button {
+
+ 
+    background:none;
+    box-sizing: border-box;
+    position: relative;
+    top:-70px;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    outline: none;
+    cursor: pointer;
+}
+.glyphicon-search 
+{
+    color: #3e3e3e;
+}
+
+/* end of search*/
+
+
+/* our cat */
+
+
+.margg h2{
+	font-family: aspira;
+	font-size: 58px;
+    
+
+	font-weight:200;
+}
+.margg h2 span 
+{
+font-family:arvo;
+
+}
+
+.margg h2:before
+{
+	content:"";
+	background-color:#e77e01;
+	position:absolute;
+	top:160px;
+	left:5%;
+	width:90px;
+	height:4px;
+}
+.margg 
+{
+    margin: 75px;
+    margin-top: 250px;
+   
+}
+/* end our cat */
+
+
+
+/* start of cat-f */
+.cat-f .lists ul
+{
+    list-style: none;
+}
+.cat-f .lists ul li 
+{
+    padding: 10px;
+    font-size:20px;
+}
+.cat-f .lists ul li a
+{
+text-decoration: none;
+
+color:#3e3e3e;
+}
+
+.cat-f .lists
+{
+    
+    margin: 20px;
+    font-family: aspira;
+    margin-left:-5px;
+ 
+   
+}
+.cat-f h2
+{
+font-size: 48px ;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: #e77d01;
+}
+.cat-f .lists .itme
+{
+    
+}
+.cat-f .head-ft-btn-l {
+	margin: 40px 43%;
+	padding: 10px 20px;
+	border-radius: 0px;
+	width: 150px;
+    text-align: center;
+}
+
+
+.cat-f .head-ft-btn-l{
+	background-color: #3e3e3e;
+	color:#FFF;
+	border: 2px solid #3e3e3e;
+	transition: all 0.4s ease;
+}
+
+.cat-f .head-ft-btn-l:hover {
+	color: #3e3e3e;
+	background-color: #FFF;
+}
+
+
+
+/* start of footer */
+
+footer
+{
+	background:#3e3e3e;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+footer .logo 
+{
+	height:80px;
+	margin-top:10px;
+}
+footer .first p
+{
+	margin-left:10px;
+	margin-top:15px;
+	color:#fcfcfc;
+	font-family:aspira;
+	
+	
+}
+footer .sec 
+{
+	margin-top:10px;
+	
+}
+footer .sec ul 
+{
+	list-style:none;
+}
+footer .sec h3
+{
+	margin-left:40px;
+	color:#fcfcfc;
+	font-family:aspira;
+}
+footer .sec ul li 
+{
+	padding: 5px;
+	padding-left:0px;
+}
+footer .sec ul li a
+{
+	font-size:18px;
+	color:#c3c2c2;
+	
+	font-family:Aspira Light;
+}
+footer .sec ul li a:hover
+{
+	color:#fcfcfc;
+}
+footer .sec ul li a:hover 
+{
+	text-decoration:none;
+	color:#fcfcfc;
+}
+footer .th
+{
+	margin-top:10px;
+	font-family:aspira light;
+	
+}
+footer .th h3
+{
+	color:#fcfcfc;
+}
+footer .th i
+{
+	padding:15px;
+	padding-right:20px;
+	font-size:18px;
+	color:#2c2c2c;
+}
+footer .th .fa-facebook
+{
+	padding-left:0px;
+	
+}
+footer .th .fa-facebook,footer .th .fa-twitter,footer .th .fa-linkedin-square
+{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+footer .th .fa-facebook:hover
+{
+	color:#3b5998; 
+}
+footer .th .fa-twitter:hover
+{
+	color:#00aced;
+}
+footer .th .fa-linkedin-square:hover
+{
+	color:#007bb6;
+}
+.footer-down
+{
+	
+	text-align:center;
+	margin:auto;
+	border-top:1px solid #c3c2c2;
+	margin-top:20px;
+}
+.footer-down p
+{
+	color:#c3c2c2;
+	margin:15px;
+}
+
+/* end of footer */
+
+/* NavBar Custom */ 
+
+.navbar{
+	min-height:90px;
+}
+.navbar-left{
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: aspira;
+}
+.navbar-right{
+	margin-top: 15px;	
+}
+.navbar-default{
+	background-color: #FFF;
+	border-color: #FFF;
+}
+.nav>li{
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+	color: #3e3e3e;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	
+	color:#e77e01;
+}
+
+/* End NavBar Custom */
+

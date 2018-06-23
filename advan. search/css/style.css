@@ -1,0 +1,568 @@
+/* start of footer */
+
+footer
+{
+	background:#3e3e3e;
+	padding-bottom:10px;
+	padding-top:5px;
+}
+footer .logo 
+{
+	height:80px;
+	margin-top:10px;
+}
+footer .first p
+{
+	margin-left:10px;
+	margin-top:15px;
+	color:#fcfcfc;
+	font-family:aspira;
+	
+	
+}
+footer .sec 
+{
+	margin-top:10px;
+	
+}
+footer .sec ul 
+{
+	list-style:none;
+}
+footer .sec h3
+{
+	margin-left:40px;
+	color:#fcfcfc;
+	font-family:aspira;
+}
+footer .sec ul li 
+{
+	padding: 5px;
+	padding-left:0px;
+}
+footer .sec ul li a
+{
+	font-size:18px;
+	color:#c3c2c2;
+	
+	font-family:Aspira Light;
+}
+footer .sec ul li a:hover
+{
+	color:#fcfcfc;
+}
+footer .sec ul li a:hover 
+{
+	text-decoration:none;
+	color:#fcfcfc;
+}
+footer .th
+{
+	margin-top:10px;
+	font-family:aspira light;
+	
+}
+footer .th h3
+{
+	color:#fcfcfc;
+}
+footer .th i
+{
+	padding:15px;
+	padding-right:20px;
+	font-size:18px;
+	color:#2c2c2c;
+}
+footer .th .fa-facebook
+{
+	padding-left:0px;
+	
+}
+footer .th .fa-facebook,footer .th .fa-twitter,footer .th .fa-linkedin-square
+{
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+footer .th .fa-facebook:hover
+{
+	color:#3b5998; 
+}
+footer .th .fa-twitter:hover
+{
+	color:#00aced;
+}
+footer .th .fa-linkedin-square:hover
+{
+	color:#007bb6;
+}
+.footer-down
+{
+	
+	text-align:center;
+	margin:auto;
+	border-top:1px solid #c3c2c2;
+	margin-top:20px;
+}
+.footer-down p
+{
+	color:#c3c2c2;
+	margin:15px;
+}
+
+/* end of footer */
+
+/* NavBar Custom */ 
+
+.navbar{
+	min-height:90px;
+}
+.navbar-left{
+	margin-left: 30%;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: aspira;
+}
+.navbar-right{
+	margin-top: 15px;	
+}
+.navbar-default{
+	background-color: #FFF;
+	border-color: #FFF;
+}
+.nav>li{
+	margin-right: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+	color: #3e3e3e;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	-o-transition:all 0.4s ease;
+	-ms-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	
+	color:#e77e01;
+}
+
+/* End NavBar Custom */
+
+/* start of title*/
+
+.top
+{
+    margin-bottom: 150px;
+    margin-top: 280px;
+}
+
+
+
+
+.top h2{
+	font-family: aspira;
+	font-size: 58px;
+    text-transform: capitalize;
+	font-weight:200;
+}
+.top h2 span 
+{
+font-family:arvo;
+    font-size: 70px;
+
+}
+
+.top h2:before
+{
+	content:"";
+	background-color:#e77e01;
+	position:absolute;
+	top:160px;
+	left:5%;
+	width:90px;
+	height:4px;
+}
+
+
+/*end of title*/
+
+
+/*start  of body*/
+
+section .l-search
+{
+    display: inline-block;
+   
+    background-color: #fcfcfc;
+}
+section .l-search .loat h2
+{
+	color:#3e3e3e;
+    font-family: aspira;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+section .l-search .loat .colum 
+{
+	background-color:#e77d01;
+    position: relative;
+    top: 0px;
+	height:40px;
+	width:2px;
+	float:left;
+    margin-right: 10px
+  
+}
+
+
+
+/*start of dropmenu*/
+.drop-menu {
+  width: 200px;
+  background-color:#fff; 
+  transition: all .5s ease;
+  position: relative;
+  font-size: 14px;
+  color: #3e3e3e;
+  
+  text-align: left;
+  border: 1px solid #dedede;
+	outline: none;
+    margin-top: 20px;
+	
+    margin-bottom: 20px;
+    
+
+}
+.drop-menu:active {
+  border: 1px solid #e77e01;
+}
+.drop-menu:foucs {
+	  border: 1px solid #e77e01;
+
+}
+.drop-menu .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+
+}
+
+
+.drop-menu .select .fa-chevron-down {
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .5s ease;
+    float: right;
+        color: #e77e01;
+}
+
+.drop-menu:active {
+    background-color: #FFF;
+}
+.drop-menu.active:hover,
+.drop-menu.active {
+    background-color: #FFF;
+}
+.drop-menu.active .select .fa-chevron-down {
+    transform: rotate(180deg);
+}
+.drop-menu .dropeddown {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    overflow: hidden;
+    display: none;
+  max-height: 144px;
+    overflow-y: auto;
+    z-index: 99999;
+     padding: 0;
+    list-style: none;
+}
+.drop-menu .dropeddown li {
+    padding: 10px;
+    transition: all .2s ease;
+    cursor: pointer;
+text-transform: capitalize;
+} 
+
+.drop-menu .dropeddown li:hover {
+    background-color: #e77e01;
+    color: #fff
+}
+.drop-menu .dropeddown li:active {
+    background-color: #d07421;
+    color: #fff;
+}
+.select span{
+	
+	color: #999999 ;
+    text-transform: capitalize;
+}
+
+    
+
+/*end of dropmenu*/
+
+
+
+/*start  of checkbox*/
+.checkbox-custom {
+  opacity: 0;
+  position: absolute;
+}
+.checkbox-custom-label {
+  position: relative;
+     padding: 5px;
+    padding-left: 0px;
+    text-transform: capitalize;
+     font-family: aspira;
+    font-weight: 400;
+     font-size: 15px;
+}
+
+.checkbox-custom + .checkbox-custom-label:before {
+  content: '';
+  background: #fff;
+  border: 3px solid #e77e01;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 1;
+	cursor: pointer;
+}
+.checkbox-custom:checked + .checkbox-custom-label:before {
+  content: "\f00c";
+  font-family: 'FontAwesome';
+  background: #FFF;
+  color: #e77e01;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.check-box-ft{
+	margin-bottom: 25px;
+	margin-top: 10px;
+
+}
+.check-box-ft label{
+	color: #e77e01;
+	font-family: aspira;
+	font-weight: 800;
+	display: inline-block;
+	cursor: pointer;
+}
+/*end  of checkbox*/
+
+
+
+
+
+
+
+
+
+
+.expl
+{
+    margin-top: 20px;
+}
+
+
+
+
+section .r-jobs
+{
+    display: inline-block;
+    color: #3e3e3e;
+    text-transform: capitalize;
+    font-family: aspira;
+}
+section .r-jobs .nopd
+{
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+}
+section .r-jobs .loat h2 
+{
+	color:#3e3e3e;
+    font-family: aspira;
+    font-weight: 300;
+    font-size: 16px;
+}
+section .r-jobs .loat
+{
+    padding-left: 0px;
+}
+section .r-jobs .loat .colum 
+{
+	background-color:#e77d01;
+    position: relative;
+    top: 20px;
+	height:38px;
+	width:2px;
+	float:left;
+    margin-right: 10px
+        
+}
+section .r-jobs .job img
+{
+    margin-top: 20px;
+}
+section .r-jobs .job
+{
+    width: 90%;
+    padding: 30px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+section .r-jobs .job:hover
+{
+    background-color: #fcfcfc;
+}
+section .r-jobs .job p
+{
+    font-size: 16px;
+}
+section .r-jobs .job p>a
+{
+    color: #e77d01;
+}
+section .r-jobs .job .tags ul
+{
+    margin-top: 20px;
+    
+    padding-left: 0px;
+    list-style: none;
+}
+section .r-jobs .job .tags ul li
+{
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #eeeff0;
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+}
+section .r-jobs .job .tags ul li>a
+{
+    padding: 20px;
+    
+    color:#3e3e3e;
+ 
+    
+}
+/*section .r-jobs nav
+{
+    margin-left: 25%;
+}
+.pagination>li
+{
+    margin: 5px;
+}*/
+/*end  of body*/
+
+
+
+/* search*/
+
+
+
+
+.login-block {
+    width:50%;
+    padding: 20px;
+    background: #fff;
+  
+   
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+   
+    border:1px solid #3e3e3e;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+
+
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #e77d01;
+}
+
+.login-block button {
+
+ 
+    background:none;
+    box-sizing: border-box;
+    position: relative;
+    top:-70px;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+    outline: none;
+    cursor: pointer;
+}
+.glyphicon-search 
+{
+    color: #3e3e3e;
+}
+
+/* end of search*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
